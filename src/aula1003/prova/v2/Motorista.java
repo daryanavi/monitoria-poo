@@ -7,20 +7,20 @@ package aula1003.prova.v2;
  * @author Daryan Avi
  *
  */
-public class Cidade
+public class Motorista
 {
 	private String nome;
-	
-	public Cidade(String nome)
+
+	public Motorista(String nome)
 	{
 		this.nome = nome;
 	}
-	
+
 	public String getNome()
 	{
 		return nome;
 	}
-	
+
 	public void setNome(String nome)
 	{
 		this.nome = nome;
@@ -29,6 +29,6 @@ public class Cidade
 	@Override
 	public String toString()
 	{
-		return nome;
+		return "Motorista [nome=" + nome + "]";
 	}
 }
